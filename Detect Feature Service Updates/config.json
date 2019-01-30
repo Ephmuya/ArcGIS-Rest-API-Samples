@@ -1,0 +1,33 @@
+  {
+   "featureServiceUrl":"https://yourserviceurl/FeatureServer",
+   "portal":{
+      "url":"https://www.arcgis.com",
+      "username":"<your Username>",
+      "password":"Y0ur_P@55woRd"
+   },
+   "enumerators":{
+      "user0":{
+         "username":"fieldCollector1",
+         "managersEmail":"managers1@someting.com"
+      },
+      "user1":{
+         "username":"fieldCollector2",
+         "managersEmail":"managers1@someting.com"
+      },
+      "user2":{
+         "username":"fieldCollector3",
+         "managersEmail":"managers2@someting.com"
+      },
+      "user3":{
+         "username":"fieldCollector4",
+         "managersEmail":"managers3@someting.com"
+      }
+   },
+   "emailConfig":{
+      "smtp":"smtp.something.com",
+      "smtpPort":"587",
+      "noReply":"noreply@something.com",
+      "password":"noReplyPassoword"
+   }
+
+}
